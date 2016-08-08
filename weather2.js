@@ -1,4 +1,4 @@
-
+alert('test');
 
 $('document').ready(function() {
   
