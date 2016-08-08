@@ -5,7 +5,20 @@ body{
 	background-color: #fff1e0;
 }
 
+@font-face{
+    font-family: "cwTeXKai-zhonly";
+    src:url('fonts/cwTeXKai-zhonly.ttf') format('truetype');
+}
 
+@font-face{
+    font-family: "NotoSansCJKtc-Thin";
+    src:url('fonts/NotoSansCJKtc-Thin.otf') format('opentype');
+}
+
+@font-face{
+    font-family: "cwTeXFangSong-zhonly";
+    src:url('fonts/cwTeXFangSong-zhonly.ttf') format('truetype');
+}
 
 header{
 	font-family: 'Playfair Display', serif;
@@ -93,6 +106,7 @@ p{
 
 }
 .collumn .headline.hl1{
+    font-family: 'cwTeXKai-zhonly';
     font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
@@ -133,6 +147,8 @@ p{
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
+
+
 .collumn .headline.hl4{
     font-weight: 700;
     font-size: 12px;
@@ -207,6 +223,26 @@ p{
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
+
+
+.collumn .headline.h20{
+    font-family: 'NotoSansCJKtc-Thin';
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px 0 10px 0;
+
+}
+
+.collumn .headline.h21{
+    font-family: 'cwTeXFangSong-zhonly';
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 10px 0 10px 0;
+}
+
+
 .collumn .headline.hl10{
     font-weight: 700;
     font-size: 12px;
