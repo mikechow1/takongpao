@@ -52,7 +52,7 @@ p{
 }
 
 .subhead{
-    text-transform: uppercase;
+    
     border-bottom: 2px solid #2f2f2f;
     border-top: 2px solid #2f2f2f;
     padding: 10px 0 20px 0;
@@ -86,7 +86,7 @@ p{
 .collumn{
     font-size: 14px;
     line-height: 20px;
-    width: 17.5%;
+    width: 19.5%;
     display: inline-block;
     padding: 0 1% 0 1%;
     vertical-align: top;
