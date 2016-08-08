@@ -1,0 +1,2 @@
+git remote add origin https://github.com/mikechow1/takongpao.git
+git push -u origin master
