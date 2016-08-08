@@ -4,7 +4,7 @@ $('document').ready(function() {
   
   // get location using IP API
   //var location = "http://ip-api.com/json";
-  var location = "http://ipinfo.io";
+var location = "https:freegeoip.net/json/github.com";
   $.getJSON(location, function(data) {
     var lat = data.lat;
     var lon = data.lon;
