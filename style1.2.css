@@ -21,10 +21,12 @@ body{
 }
 
 header{
-	font-family: 'Playfair Display', serif;
+
+	font-family: 'cwTeXFangSong-zhonly', serif;
+    
     font-weight: 900;
-    font-size: 90px;
-    letter-spacing: 5px;
+    font-size: 140px;
+    letter-spacing: 15px;
     text-transform: uppercase;
     display: inline-block;
     line-height: 72px;
@@ -52,7 +54,9 @@ p{
 }
 
 .subhead{
-    
+    background-color: black;
+    color: white;
+    font-size: 15px;
     border-bottom: 2px solid #2f2f2f;
     border-top: 2px solid #2f2f2f;
     padding: 10px 0 20px 0;

@@ -12,7 +12,7 @@ var location = "https://freegeoip.net/json/github.com";
     var country = data.country;
     
     // Use location data to get weather data from open weather API
-    $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + 22.3964 + "&lon=" + 114.1095 + "&appid=3e24d71944ac2d7f1bdddb569985a87c", function(data) {
+    $.getJSON("https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?lat=" + 22.3964 + "&lon=" + 114.1095 + "&appid=3e24d71944ac2d7f1bdddb569985a87c", function(data) {
       
       // Our Data
       var icon = deriveIcon(data.weather[0].icon);  
