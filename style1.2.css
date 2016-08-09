@@ -246,6 +246,13 @@ p{
     padding: 10px 0 10px 0;
 }
 
+.collumn .headline.h22{
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px 0 10px 0;
+}
+
 
 .collumn .headline.hl10{
     font-weight: 700;

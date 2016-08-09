@@ -18,7 +18,7 @@ var location = "https://freegeoip.net/json/github.com";
       var icon = deriveIcon(data.weather[0].icon);  
       
       var tempInCelsius = Math.round(((data.main.temp) - 273.15 ));
-      var tempInFarenheit = tempInCelsius + 32;
+      var tempInFarenheit = tempInCelsius * (9/5)+32;
       tempInCelsius = tempInCelsius.toFixed(1);
       tempInFarenheit = tempInFarenheit.toFixed(1);
       
