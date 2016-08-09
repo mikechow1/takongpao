@@ -236,7 +236,7 @@
 
 <script type="text/javascript">
 
-
+// calendar
 
  var months = ['1 月','2 月','3 月','4 月','5 月','6 月','7 月',
 '8 月','9 月','10 月','11 月','12 月'];       
@@ -257,11 +257,15 @@ weekday[6] = "週六";
 var n = weekday[d.getDay()];
 document.getElementById("weekday").innerHTML = n;
 
+// 朱經緯counter
+
 var oneDay = 24*60*58*1000; // hours*minutes*seconds*milliseconds
 var firstDate = new Date(2014,11,27);
 var secondDate = new Date(tomorrow);
 var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
 document.getElementById("diffD").innerHTML = diffDays;
+
+// luner calendar
 
 var Today=new Date();
 document.getElementById("luner").innerHTML = "農曆  "+LunarDate.GetLunarDay(Today.getFullYear(), (Today.getMonth()+1), Today.getDate());
