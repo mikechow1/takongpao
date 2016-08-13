@@ -35,13 +35,17 @@ header{
     margin-right: 230px;
 }
 
-
+#header{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 250px;
+}
 
 p{
     margin-top: 0;
     margin-bottom: 20px;
-
 }
+
 .head{
     text-align: center;
     position: relative;
